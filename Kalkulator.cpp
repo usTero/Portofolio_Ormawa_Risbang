@@ -29,7 +29,7 @@ float olah(int a, int b, char c){
 
 int main(){
     int num1, num2;
-    float hasil;
+    float hasil = 0;
     char operasi;
 
     cout << "=================================\n"
@@ -45,4 +45,5 @@ int main(){
         hasil += olah(num1,num2,operasi);
         cout << hasil;
     return 0;
+
 }
